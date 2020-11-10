@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "exec": "babel-node",
+  "ext": "js, json",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs",
+  "watch": ["*"],
+  "ignore": ["node_modules", "custom-js"]
+}
