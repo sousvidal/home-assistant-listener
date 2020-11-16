@@ -1,5 +1,5 @@
 {
-  "name": "home-assistant-js",
+  "name": "home-assistant-listener",
   "version": "0.1.0",
   "description": "",
   "main": "server.js",
@@ -11,17 +11,19 @@
   "author": "Jan Willem de Birk",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "home-assistant-js-websocket": "^5.7.0",
-    "lodash": "^4.17.20",
-    "vm2": "^3.9.2",
-    "ws": "^7.3.1",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
-    "@babel/register": "^7.12.1"
+    "@babel/register": "^7.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "home-assistant-js-websocket": "^5.7.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "node-cron": "^2.0.3",
+    "vm2": "^3.9.2",
+    "ws": "^7.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
