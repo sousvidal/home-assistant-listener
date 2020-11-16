@@ -1,5 +1,5 @@
 {
-  "name": "home-assistant-js",
+  "name": "home-assistant-listener",
   "version": "0.1.0",
   "description": "",
   "main": "server.js",
